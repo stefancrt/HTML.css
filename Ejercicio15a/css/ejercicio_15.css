@@ -1,0 +1,58 @@
+*{box-sizing: border-box}
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption');
+body {
+    margin: 5% 8%;
+}
+
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    margin: 5% 3% 5% 0%;
+    padding-left: 2em;
+    background-color: red;
+    color: whitesmoke;
+    box-shadow: 8px 8px gainsboro;
+}
+
+
+b { 
+   color: gray;
+}
+
+div.bio p:first-child {
+    font-size: 1.1em;
+    margin-bottom: 2%;
+}
+
+div.add {
+    float: right;
+    width: 45%;
+    margin: 0 4% 2% 4%;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 1em;
+        
+}
+div.add hr {
+    box-shadow: 2px 1px black;
+}
+
+div.add div {
+    background-color: bisque;
+    padding: 0.1% 5%;
+    }
+
+div.add h2 {
+    margin-bottom: 0px;
+}
+
+
+div.add p:nth-of-type(1){
+    padding-top: 0.5em;
+    margin-top: 0px;
+}
+
+footer {
+    border-top: 1px solid rgba(128,0,0,1);
+    padding-top: 1em;
+}    

@@ -1,0 +1,28 @@
+h1{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size:40px;
+	color:red;
+	quotes: "'" "'"
+}
+
+span.Autor{
+	font-weight:bold;
+	text-decoration:underline;
+	color:blue;
+}
+p{
+	font-family: 'BioRhyme', serif;
+	font-size:20px;	
+}
+
+
+p:nth-child(3) {font-family: 'Indie Flower', cursive;
+	font-size:15px;
+}
+q{
+	font-style:italic;
+	color:green;
+	quotes: "«" "»";
+}
+footer>p,p:nth-of-type(2){ font-family: 'Times New Roman', Times, serif;}
+

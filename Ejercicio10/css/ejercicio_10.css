@@ -1,0 +1,9 @@
+article>ol {list-style-type: decimal-leading-zero;}
+ol>li>ol {list-style-type: upper-alpha;}
+ul>li {
+    list-style-image: url("image/icon.png");}
+ul li:nth-child(2n) {
+        background-color:aquamarine;
+       
+        width: 15%;
+    }

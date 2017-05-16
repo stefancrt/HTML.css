@@ -1,0 +1,20 @@
+*{box-sizing: border-box}
+	th{background: bisque;
+background-visibility: 20%; 
+    text-align: center;
+    padding: 3px;
+}
+table {
+    margin: 20%;
+    color: green;
+    border-color: red;
+    width: 50%;
+    height:30%;
+}
+td {border: none;
+    padding: 3px 8px;
+    text-align: center;
+}
+td:hover{
+background: blue
+}

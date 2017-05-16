@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Faster+One');
+*{box-sizing: border-box}
+header{
+    font-family: 'Faster One';
+    font-size: 3em;
+    text-align: center;
+    color: maroon;
+}
+article{
+    display: block;
+    margin: auto;
+    width:88%;
+    padding: 5%;
+    border-top: 2px solid black;
+}
+figure{
+    float:left;
+   border: 2px solid black;
+   box-shadow: 5px 5px maroon;
+    
+}
+img{
+    width: 100%;
+}
+a
+{color: black;
+}

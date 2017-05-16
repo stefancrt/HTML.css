@@ -1,0 +1,41 @@
+*{box-sizing: border-box}
+div.caja{position: absolute;
+    width:403px;
+height:203px;
+top: 200px;
+left: 500px;
+border: 2px solid black;
+
+}
+div.caja1{position: absolute;
+    width:200px;
+height:200px;
+background: yellow;
+
+}
+div.caja2{position: absolute;
+    width:200px;
+height:200px;
+background:green;
+left:200px;
+
+
+
+}
+div.caja3{position:absolute;
+    width:200px;
+height:200px;
+background:blue;
+z-index: 1;
+top: 80px;
+left:300px;
+
+}
+div.caja4{
+  position: fixed;
+height:100px;
+width: 100%;
+background:orange;
+bottom: 0px;
+left:0px
+}
